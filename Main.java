@@ -9,10 +9,10 @@ import java.io.File;
 public class Main {
     public static void main(String[] args) {
         // Path to the image
-        String imagePath ="C:/Users/Vivek/Desktop/New folder (8)/15246731879217_polar-wiki.png";
+        String imagePath ="C:/New folder/.png";
 
         // Set TESSDATA_PREFIX environment variable directly in code
-        System.setProperty("TESSDATA_PREFIX", "C:/Program Files/Tesseract-OCR/tessdata/");
+        System.setProperty("TESSDATA_PREFIX", "C:/Tesseract-OCR/tessdata/");
 
         // Create Tesseract instance
         ITesseract tesseract = new Tesseract();
